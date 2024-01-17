@@ -13,15 +13,17 @@
     "test": "mocha tests/lib/rules/sort-declarations-alphabetically.js"
   },
   "dependencies": {
-    "import-modules": "^2.0.0",
-    "postcss": "^7.0.2"
+    "import-modules": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "^7.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "mocha": "^8.0.1",
-    "prettier": "^2.0.5"
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "mocha": "^8.4.0",
+    "prettier": "^2.8.8"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
   },
   "engines": {
     "node": ">=0.10.0"
